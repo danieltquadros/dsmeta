@@ -1,0 +1,94 @@
+.dsmetaCard {
+  background: #283142;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.dsmetaSalesTitle {
+  color: #676FFF;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dsmetaFormControl {
+  height: 46px;
+  width: 100%;
+  background-color: #1B2531;
+  border: 1px solid #384459;
+  border-radius: 5px;
+  color: #9AAABE;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.dsmetaFormControlContainer {
+  max-width: 300px;
+  margin-bottom: 16px;
+}
+
+.dsmetaSalesTable {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.dsmetaSalesTable thead {
+  height: 55px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #E9E9E9;
+}
+
+.dsmetaSalesTable tbody {
+  font-size: 14px;
+  font-weight: 400;
+  color: #CFCFCF;
+  text-align: center;
+}
+
+.dsmetaSalesTable tbody tr {
+  height: 74px;
+  border-top: 1px solid #5f6E82;
+}
+
+.dsmetaSalesTable tbody tr:hover > td{
+  background-color: #384459;
+}
+
+.dsmetaSalesTable tbody tr:nth-child(odd) {
+  background-color: #242C3B;
+}
+
+.dsmetaRedBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.show576 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
+  }
+  .dsmetaCard {
+    padding: 35px;
+  }
+  .dsmetaSalesTable tbody {
+    font-size: 18px;
+  }
+  .dsmetaSalesTable tbody tr {
+    height: 55px;
+  }
+}
+
+.show992 {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .show992 {
+    display: table-cell;
+  }
+}
